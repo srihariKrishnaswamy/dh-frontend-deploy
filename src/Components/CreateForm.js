@@ -165,6 +165,7 @@ const CreateForm = () => {
       questions: question,
     });
     try {
+      console.log("hopeuflly works, ", res.data.form_id)
       const id = res.data.form_id;
       await sendEmail(id)
     } catch (e) {
