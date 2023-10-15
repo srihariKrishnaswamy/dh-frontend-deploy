@@ -118,7 +118,7 @@ const CreateForm = () => {
         ],
         subject: 'Clarity: New Form!',
         textContent: 'link here',
-        htmlContent: `<h5>Your Clarity Form Link! Fill it out here: ${`http://localhost:3000/employee/` + form_id + '/' + person.id}</h5>`, // i wanna send out a different link to each person in the list
+        htmlContent: `<h5>Your Clarity Form Link! Fill it out here: ${`https://dh-frontend-deploy.vercel.app/employee/` + form_id + '/' + person.id}</h5>`, // i wanna send out a different link to each person in the list
       };
       console.log("payload declared")
       try {
